@@ -1,0 +1,5 @@
+/home/ilya/Рабочий стол/gpss-on-cpp/src/CMakeFiles/gpss.dir
+/home/ilya/Рабочий стол/gpss-on-cpp/src/CMakeFiles/run.dir
+/home/ilya/Рабочий стол/gpss-on-cpp/src/CMakeFiles/clean_all.dir
+/home/ilya/Рабочий стол/gpss-on-cpp/src/CMakeFiles/edit_cache.dir
+/home/ilya/Рабочий стол/gpss-on-cpp/src/CMakeFiles/rebuild_cache.dir

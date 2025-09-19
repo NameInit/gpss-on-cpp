@@ -1,0 +1,2609 @@
+PHASE: input phase
+MODEL TIME: 0
+STATUS:
+    Workers type=1 have 2 places
+    Workers type=2 have 2 places
+CEC:
+    <void>
+FEC:
+    {ID: 1, TIME: 0.697736, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 1.19501, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 2, TIME: 8.70495, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+
+################################################################################
+
+PHASE: timer correction phase
+MODEL TIME: 0.697736
+STATUS:
+    Workers type=1 have 2 places
+    Workers type=2 have 2 places
+CEC:
+    {ID: 1, TIME: 0.697736, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+FEC:
+    {ID: 3, TIME: 1.19501, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 2, TIME: 8.70495, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 0.697736
+STATUS:
+    Workers type=1 have 2 places
+    Workers type=2 have 2 places
+CEC:
+    {ID: 1, TIME: 0.697736, TYPE: 1, CUR_BLOCK: GENERATE, NEXT_BLOCK: ENTER}
+FEC:
+    {ID: 3, TIME: 1.19501, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 2, TIME: 8.70495, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 0.697736
+STATUS:
+    Workers type=1 have 2 places
+    Workers type=2 have 2 places
+CEC:
+    {ID: 1, TIME: 0.697736, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+FEC:
+    {ID: 3, TIME: 1.19501, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 4, TIME: 7.02058, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 2, TIME: 8.70495, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 0.697736
+STATUS:
+    Workers type=1 have 1 places
+    Workers type=2 have 2 places
+CEC:
+    {ID: 1, TIME: 0.697736, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+FEC:
+    {ID: 3, TIME: 1.19501, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 4, TIME: 7.02058, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 2, TIME: 8.70495, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 0.697736
+STATUS:
+    Workers type=1 have 1 places
+    Workers type=2 have 2 places
+CEC:
+    <void>
+FEC:
+    {ID: 3, TIME: 1.19501, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 4, TIME: 7.02058, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 2, TIME: 8.70495, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: timer correction phase
+MODEL TIME: 1.19501
+STATUS:
+    Workers type=1 have 1 places
+    Workers type=2 have 2 places
+CEC:
+    {ID: 3, TIME: 1.19501, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+FEC:
+    {ID: 4, TIME: 7.02058, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 2, TIME: 8.70495, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 1.19501
+STATUS:
+    Workers type=1 have 1 places
+    Workers type=2 have 2 places
+CEC:
+    {ID: 3, TIME: 1.19501, TYPE: 3, CUR_BLOCK: GENERATE, NEXT_BLOCK: ENTER}
+FEC:
+    {ID: 4, TIME: 7.02058, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 2, TIME: 8.70495, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 1.19501
+STATUS:
+    Workers type=1 have 1 places
+    Workers type=2 have 2 places
+CEC:
+    {ID: 3, TIME: 1.19501, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+FEC:
+    {ID: 4, TIME: 7.02058, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 2, TIME: 8.70495, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 13.6461, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 1.19501
+STATUS:
+    Workers type=1 have 1 places
+    Workers type=2 have 1 places
+CEC:
+    {ID: 3, TIME: 1.19501, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+FEC:
+    {ID: 4, TIME: 7.02058, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 2, TIME: 8.70495, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 13.6461, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 1.19501
+STATUS:
+    Workers type=1 have 1 places
+    Workers type=2 have 1 places
+CEC:
+    <void>
+FEC:
+    {ID: 4, TIME: 7.02058, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 2, TIME: 8.70495, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 13.6461, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: timer correction phase
+MODEL TIME: 7.02058
+STATUS:
+    Workers type=1 have 1 places
+    Workers type=2 have 1 places
+CEC:
+    {ID: 4, TIME: 7.02058, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+FEC:
+    {ID: 2, TIME: 8.70495, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 13.6461, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 7.02058
+STATUS:
+    Workers type=1 have 1 places
+    Workers type=2 have 1 places
+CEC:
+    {ID: 4, TIME: 7.02058, TYPE: 1, CUR_BLOCK: GENERATE, NEXT_BLOCK: ENTER}
+FEC:
+    {ID: 2, TIME: 8.70495, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 13.6461, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 7.02058
+STATUS:
+    Workers type=1 have 1 places
+    Workers type=2 have 1 places
+CEC:
+    {ID: 4, TIME: 7.02058, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+FEC:
+    {ID: 2, TIME: 8.70495, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 6, TIME: 12.8223, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 13.6461, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 7.02058
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 1 places
+CEC:
+    {ID: 4, TIME: 7.02058, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+FEC:
+    {ID: 2, TIME: 8.70495, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 6, TIME: 12.8223, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 13.6461, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 7.02058
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 1 places
+CEC:
+    <void>
+FEC:
+    {ID: 4, TIME: 8.63164, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 2, TIME: 8.70495, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 6, TIME: 12.8223, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 13.6461, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: timer correction phase
+MODEL TIME: 8.63164
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 1 places
+CEC:
+    {ID: 4, TIME: 8.63164, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+FEC:
+    {ID: 2, TIME: 8.70495, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 6, TIME: 12.8223, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 13.6461, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 8.63164
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 1 places
+CEC:
+    {ID: 4, TIME: 8.63164, TYPE: 1, CUR_BLOCK: LEAVE, NEXT_BLOCK: TERMINATE}
+FEC:
+    {ID: 2, TIME: 8.70495, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 6, TIME: 12.8223, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 13.6461, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 8.63164
+STATUS:
+    Workers type=1 have 1 places
+    Workers type=2 have 1 places
+CEC:
+    {ID: 4, TIME: 8.63164, TYPE: 1, CUR_BLOCK: TERMINATE, NEXT_BLOCK: END}
+FEC:
+    {ID: 2, TIME: 8.70495, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 6, TIME: 12.8223, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 13.6461, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 8.63164
+STATUS:
+    Workers type=1 have 1 places
+    Workers type=2 have 1 places
+CEC:
+    <void>
+FEC:
+    {ID: 2, TIME: 8.70495, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 6, TIME: 12.8223, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 13.6461, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: timer correction phase
+MODEL TIME: 8.70495
+STATUS:
+    Workers type=1 have 1 places
+    Workers type=2 have 1 places
+CEC:
+    {ID: 2, TIME: 8.70495, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+FEC:
+    {ID: 6, TIME: 12.8223, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 13.6461, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 8.70495
+STATUS:
+    Workers type=1 have 1 places
+    Workers type=2 have 1 places
+CEC:
+    {ID: 2, TIME: 8.70495, TYPE: 2, CUR_BLOCK: GENERATE, NEXT_BLOCK: ENTER}
+FEC:
+    {ID: 6, TIME: 12.8223, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 13.6461, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 8.70495
+STATUS:
+    Workers type=1 have 1 places
+    Workers type=2 have 1 places
+CEC:
+    {ID: 2, TIME: 8.70495, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+FEC:
+    {ID: 6, TIME: 12.8223, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 13.6461, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 8.70495
+STATUS:
+    Workers type=1 have 1 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 2, TIME: 8.70495, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+FEC:
+    {ID: 6, TIME: 12.8223, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 13.6461, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 8.70495
+STATUS:
+    Workers type=1 have 1 places
+    Workers type=2 have 0 places
+CEC:
+    <void>
+FEC:
+    {ID: 2, TIME: 10.1004, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 6, TIME: 12.8223, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 13.6461, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: timer correction phase
+MODEL TIME: 10.1004
+STATUS:
+    Workers type=1 have 1 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 2, TIME: 10.1004, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+FEC:
+    {ID: 6, TIME: 12.8223, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 13.6461, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 10.1004
+STATUS:
+    Workers type=1 have 1 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 2, TIME: 10.1004, TYPE: 2, CUR_BLOCK: LEAVE, NEXT_BLOCK: TERMINATE}
+FEC:
+    {ID: 6, TIME: 12.8223, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 13.6461, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 10.1004
+STATUS:
+    Workers type=1 have 1 places
+    Workers type=2 have 1 places
+CEC:
+    {ID: 2, TIME: 10.1004, TYPE: 2, CUR_BLOCK: TERMINATE, NEXT_BLOCK: END}
+FEC:
+    {ID: 6, TIME: 12.8223, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 13.6461, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 10.1004
+STATUS:
+    Workers type=1 have 1 places
+    Workers type=2 have 1 places
+CEC:
+    <void>
+FEC:
+    {ID: 6, TIME: 12.8223, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 13.6461, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: timer correction phase
+MODEL TIME: 12.8223
+STATUS:
+    Workers type=1 have 1 places
+    Workers type=2 have 1 places
+CEC:
+    {ID: 6, TIME: 12.8223, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+FEC:
+    {ID: 5, TIME: 13.6461, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 12.8223
+STATUS:
+    Workers type=1 have 1 places
+    Workers type=2 have 1 places
+CEC:
+    {ID: 6, TIME: 12.8223, TYPE: 1, CUR_BLOCK: GENERATE, NEXT_BLOCK: ENTER}
+FEC:
+    {ID: 5, TIME: 13.6461, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 12.8223
+STATUS:
+    Workers type=1 have 1 places
+    Workers type=2 have 1 places
+CEC:
+    {ID: 6, TIME: 12.8223, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+FEC:
+    {ID: 5, TIME: 13.6461, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 8, TIME: 13.8969, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 12.8223
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 1 places
+CEC:
+    {ID: 6, TIME: 12.8223, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+FEC:
+    {ID: 5, TIME: 13.6461, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 8, TIME: 13.8969, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 12.8223
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 1 places
+CEC:
+    <void>
+FEC:
+    {ID: 5, TIME: 13.6461, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 8, TIME: 13.8969, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 6, TIME: 19.6322, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: timer correction phase
+MODEL TIME: 13.6461
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 1 places
+CEC:
+    {ID: 5, TIME: 13.6461, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+FEC:
+    {ID: 8, TIME: 13.8969, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 6, TIME: 19.6322, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 13.6461
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 1 places
+CEC:
+    {ID: 5, TIME: 13.6461, TYPE: 3, CUR_BLOCK: GENERATE, NEXT_BLOCK: ENTER}
+FEC:
+    {ID: 8, TIME: 13.8969, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 6, TIME: 19.6322, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 13.6461
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 1 places
+CEC:
+    {ID: 5, TIME: 13.6461, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+FEC:
+    {ID: 8, TIME: 13.8969, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 6, TIME: 19.6322, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: timer correction phase
+MODEL TIME: 13.8969
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 1 places
+CEC:
+    {ID: 5, TIME: 13.6461, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 8, TIME: 13.8969, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+FEC:
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 6, TIME: 19.6322, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 13.8969
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 5, TIME: 13.6461, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 8, TIME: 13.8969, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+FEC:
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 6, TIME: 19.6322, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 13.8969
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 8, TIME: 13.8969, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+FEC:
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 6, TIME: 19.6322, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 13.8969
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 8, TIME: 13.8969, TYPE: 1, CUR_BLOCK: GENERATE, NEXT_BLOCK: ENTER}
+FEC:
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 6, TIME: 19.6322, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 13.8969
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 8, TIME: 13.8969, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+FEC:
+    {ID: 10, TIME: 14.3322, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 6, TIME: 19.6322, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: timer correction phase
+MODEL TIME: 14.3322
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 8, TIME: 13.8969, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 10, TIME: 14.3322, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+FEC:
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 6, TIME: 19.6322, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 14.3322
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 8, TIME: 13.8969, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 10, TIME: 14.3322, TYPE: 1, CUR_BLOCK: GENERATE, NEXT_BLOCK: ENTER}
+FEC:
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 6, TIME: 19.6322, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 14.3322
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 8, TIME: 13.8969, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 10, TIME: 14.3322, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+FEC:
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 6, TIME: 19.6322, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 26.6856, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: timer correction phase
+MODEL TIME: 18.9218
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 8, TIME: 13.8969, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 10, TIME: 14.3322, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+FEC:
+    {ID: 6, TIME: 19.6322, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 26.6856, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 18.9218
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 8, TIME: 13.8969, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 10, TIME: 14.3322, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: LEAVE, NEXT_BLOCK: TERMINATE}
+FEC:
+    {ID: 6, TIME: 19.6322, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 26.6856, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 18.9218
+STATUS:
+    Workers type=1 have 1 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 8, TIME: 13.8969, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 10, TIME: 14.3322, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: TERMINATE, NEXT_BLOCK: END}
+FEC:
+    {ID: 6, TIME: 19.6322, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 26.6856, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 18.9218
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 8, TIME: 13.8969, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 14.3322, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: TERMINATE, NEXT_BLOCK: END}
+FEC:
+    {ID: 6, TIME: 19.6322, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 26.6856, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 18.9218
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 10, TIME: 14.3322, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 1, TIME: 18.9218, TYPE: 1, CUR_BLOCK: TERMINATE, NEXT_BLOCK: END}
+FEC:
+    {ID: 6, TIME: 19.6322, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 8, TIME: 21.6977, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 26.6856, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 18.9218
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 10, TIME: 14.3322, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+FEC:
+    {ID: 6, TIME: 19.6322, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 8, TIME: 21.6977, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 26.6856, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: timer correction phase
+MODEL TIME: 19.6322
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 10, TIME: 14.3322, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 6, TIME: 19.6322, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+FEC:
+    {ID: 8, TIME: 21.6977, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 26.6856, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 19.6322
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 10, TIME: 14.3322, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 6, TIME: 19.6322, TYPE: 1, CUR_BLOCK: LEAVE, NEXT_BLOCK: TERMINATE}
+FEC:
+    {ID: 8, TIME: 21.6977, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 26.6856, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 19.6322
+STATUS:
+    Workers type=1 have 1 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 10, TIME: 14.3322, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 6, TIME: 19.6322, TYPE: 1, CUR_BLOCK: TERMINATE, NEXT_BLOCK: END}
+FEC:
+    {ID: 8, TIME: 21.6977, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 26.6856, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 19.6322
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 10, TIME: 14.3322, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 6, TIME: 19.6322, TYPE: 1, CUR_BLOCK: TERMINATE, NEXT_BLOCK: END}
+FEC:
+    {ID: 8, TIME: 21.6977, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 26.6856, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 19.6322
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 6, TIME: 19.6322, TYPE: 1, CUR_BLOCK: TERMINATE, NEXT_BLOCK: END}
+FEC:
+    {ID: 8, TIME: 21.6977, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 26.6856, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 19.6322
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    <void>
+FEC:
+    {ID: 8, TIME: 21.6977, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 26.6856, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: timer correction phase
+MODEL TIME: 21.6977
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 8, TIME: 21.6977, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+FEC:
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 26.6856, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 21.6977
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 8, TIME: 21.6977, TYPE: 1, CUR_BLOCK: LEAVE, NEXT_BLOCK: TERMINATE}
+FEC:
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 26.6856, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 21.6977
+STATUS:
+    Workers type=1 have 1 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 8, TIME: 21.6977, TYPE: 1, CUR_BLOCK: TERMINATE, NEXT_BLOCK: END}
+FEC:
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 26.6856, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 21.6977
+STATUS:
+    Workers type=1 have 1 places
+    Workers type=2 have 0 places
+CEC:
+    <void>
+FEC:
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 26.6856, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: timer correction phase
+MODEL TIME: 22.8038
+STATUS:
+    Workers type=1 have 1 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+FEC:
+    {ID: 11, TIME: 26.6856, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 22.8038
+STATUS:
+    Workers type=1 have 1 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: GENERATE, NEXT_BLOCK: ENTER}
+FEC:
+    {ID: 11, TIME: 26.6856, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 22.8038
+STATUS:
+    Workers type=1 have 1 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+FEC:
+    {ID: 11, TIME: 26.6856, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 22.8038
+STATUS:
+    Workers type=1 have 1 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+FEC:
+    {ID: 11, TIME: 26.6856, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: timer correction phase
+MODEL TIME: 26.6856
+STATUS:
+    Workers type=1 have 1 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 11, TIME: 26.6856, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+FEC:
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 26.6856
+STATUS:
+    Workers type=1 have 1 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 11, TIME: 26.6856, TYPE: 1, CUR_BLOCK: GENERATE, NEXT_BLOCK: ENTER}
+FEC:
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 26.6856
+STATUS:
+    Workers type=1 have 1 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 11, TIME: 26.6856, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+FEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 26.6856
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 11, TIME: 26.6856, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+FEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 26.6856
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+FEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: timer correction phase
+MODEL TIME: 29.079
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+FEC:
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 29.079
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: GENERATE, NEXT_BLOCK: ENTER}
+FEC:
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 29.079
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+FEC:
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: timer correction phase
+MODEL TIME: 32.6697
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+FEC:
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 32.6697
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: GENERATE, NEXT_BLOCK: ENTER}
+FEC:
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 32.6697
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+FEC:
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: timer correction phase
+MODEL TIME: 33.1477
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+FEC:
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 33.1477
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: GENERATE, NEXT_BLOCK: ENTER}
+FEC:
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 33.1477
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+FEC:
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: timer correction phase
+MODEL TIME: 37.1832
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+FEC:
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 37.1832
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: GENERATE, NEXT_BLOCK: ENTER}
+FEC:
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 37.1832
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+FEC:
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: timer correction phase
+MODEL TIME: 41.9321
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+FEC:
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 41.9321
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: LEAVE, NEXT_BLOCK: TERMINATE}
+FEC:
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 41.9321
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 1 places
+CEC:
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: TERMINATE, NEXT_BLOCK: END}
+FEC:
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 41.9321
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 7, TIME: 22.8038, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: TERMINATE, NEXT_BLOCK: END}
+FEC:
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 41.9321
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 3, TIME: 41.9321, TYPE: 3, CUR_BLOCK: TERMINATE, NEXT_BLOCK: END}
+FEC:
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 41.9321
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+FEC:
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: timer correction phase
+MODEL TIME: 44.6625
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+FEC:
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 44.6625
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: GENERATE, NEXT_BLOCK: ENTER}
+FEC:
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 44.6625
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+FEC:
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: timer correction phase
+MODEL TIME: 46.5053
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+FEC:
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 46.5053
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: GENERATE, NEXT_BLOCK: ENTER}
+FEC:
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 46.5053
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+FEC:
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 19, TIME: 55.9455, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: timer correction phase
+MODEL TIME: 52.2073
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+FEC:
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 19, TIME: 55.9455, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 52.2073
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: GENERATE, NEXT_BLOCK: ENTER}
+FEC:
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 19, TIME: 55.9455, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 52.2073
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+FEC:
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 19, TIME: 55.9455, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 20, TIME: 62.265, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: timer correction phase
+MODEL TIME: 53.8246
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+FEC:
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 19, TIME: 55.9455, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 20, TIME: 62.265, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 53.8246
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: GENERATE, NEXT_BLOCK: ENTER}
+FEC:
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 19, TIME: 55.9455, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 20, TIME: 62.265, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 53.8246
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+FEC:
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 19, TIME: 55.9455, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 21, TIME: 61.1807, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 20, TIME: 62.265, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: timer correction phase
+MODEL TIME: 53.8489
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+FEC:
+    {ID: 19, TIME: 55.9455, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 21, TIME: 61.1807, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 20, TIME: 62.265, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 53.8489
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: LEAVE, NEXT_BLOCK: TERMINATE}
+FEC:
+    {ID: 19, TIME: 55.9455, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 21, TIME: 61.1807, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 20, TIME: 62.265, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 53.8489
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 1 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: TERMINATE, NEXT_BLOCK: END}
+FEC:
+    {ID: 19, TIME: 55.9455, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 21, TIME: 61.1807, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 20, TIME: 62.265, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 53.8489
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: TERMINATE, NEXT_BLOCK: END}
+FEC:
+    {ID: 19, TIME: 55.9455, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 21, TIME: 61.1807, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 20, TIME: 62.265, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 53.8489
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: LEAVE, NEXT_BLOCK: TERMINATE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: TERMINATE, NEXT_BLOCK: END}
+FEC:
+    {ID: 19, TIME: 55.9455, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 21, TIME: 61.1807, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 20, TIME: 62.265, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 53.8489
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 1 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 12, TIME: 32.6697, TYPE: 2, CUR_BLOCK: TERMINATE, NEXT_BLOCK: END}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: TERMINATE, NEXT_BLOCK: END}
+FEC:
+    {ID: 19, TIME: 55.9455, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 21, TIME: 61.1807, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 20, TIME: 62.265, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 53.8489
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 1 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: TERMINATE, NEXT_BLOCK: END}
+FEC:
+    {ID: 19, TIME: 55.9455, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 21, TIME: 61.1807, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 20, TIME: 62.265, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 53.8489
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 9, TIME: 33.1477, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: TERMINATE, NEXT_BLOCK: END}
+FEC:
+    {ID: 19, TIME: 55.9455, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 21, TIME: 61.1807, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 20, TIME: 62.265, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 53.8489
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 5, TIME: 53.8489, TYPE: 3, CUR_BLOCK: TERMINATE, NEXT_BLOCK: END}
+FEC:
+    {ID: 19, TIME: 55.9455, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 21, TIME: 61.1807, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 20, TIME: 62.265, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 9, TIME: 72.8237, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 53.8489
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+FEC:
+    {ID: 19, TIME: 55.9455, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 21, TIME: 61.1807, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 20, TIME: 62.265, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 9, TIME: 72.8237, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: timer correction phase
+MODEL TIME: 55.9455
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 19, TIME: 55.9455, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+FEC:
+    {ID: 21, TIME: 61.1807, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 20, TIME: 62.265, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 9, TIME: 72.8237, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 55.9455
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 19, TIME: 55.9455, TYPE: 3, CUR_BLOCK: GENERATE, NEXT_BLOCK: ENTER}
+FEC:
+    {ID: 21, TIME: 61.1807, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 20, TIME: 62.265, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 9, TIME: 72.8237, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 55.9455
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 19, TIME: 55.9455, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+FEC:
+    {ID: 21, TIME: 61.1807, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 20, TIME: 62.265, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 22, TIME: 67.3, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 72.8237, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: timer correction phase
+MODEL TIME: 61.1807
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 19, TIME: 55.9455, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 21, TIME: 61.1807, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+FEC:
+    {ID: 20, TIME: 62.265, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 22, TIME: 67.3, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 72.8237, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 61.1807
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 19, TIME: 55.9455, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 21, TIME: 61.1807, TYPE: 1, CUR_BLOCK: GENERATE, NEXT_BLOCK: ENTER}
+FEC:
+    {ID: 20, TIME: 62.265, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 22, TIME: 67.3, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 72.8237, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 61.1807
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 19, TIME: 55.9455, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 21, TIME: 61.1807, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+FEC:
+    {ID: 20, TIME: 62.265, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 22, TIME: 67.3, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 23, TIME: 71.9119, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 72.8237, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: timer correction phase
+MODEL TIME: 62.265
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 19, TIME: 55.9455, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 21, TIME: 61.1807, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 20, TIME: 62.265, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+FEC:
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 22, TIME: 67.3, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 23, TIME: 71.9119, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 72.8237, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 62.265
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 19, TIME: 55.9455, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 21, TIME: 61.1807, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 20, TIME: 62.265, TYPE: 2, CUR_BLOCK: GENERATE, NEXT_BLOCK: ENTER}
+FEC:
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 22, TIME: 67.3, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 23, TIME: 71.9119, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 72.8237, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 62.265
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 19, TIME: 55.9455, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 21, TIME: 61.1807, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 20, TIME: 62.265, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+FEC:
+    {ID: 24, TIME: 62.4673, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 22, TIME: 67.3, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 23, TIME: 71.9119, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 72.8237, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: timer correction phase
+MODEL TIME: 62.4673
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 19, TIME: 55.9455, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 21, TIME: 61.1807, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 20, TIME: 62.265, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 24, TIME: 62.4673, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+FEC:
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 22, TIME: 67.3, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 23, TIME: 71.9119, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 72.8237, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 62.4673
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 19, TIME: 55.9455, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 21, TIME: 61.1807, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 20, TIME: 62.265, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 24, TIME: 62.4673, TYPE: 2, CUR_BLOCK: GENERATE, NEXT_BLOCK: ENTER}
+FEC:
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 22, TIME: 67.3, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 23, TIME: 71.9119, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 72.8237, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 62.4673
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 19, TIME: 55.9455, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 21, TIME: 61.1807, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 20, TIME: 62.265, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 24, TIME: 62.4673, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+FEC:
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 25, TIME: 65.8851, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 22, TIME: 67.3, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 23, TIME: 71.9119, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 72.8237, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: timer correction phase
+MODEL TIME: 64.4665
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 19, TIME: 55.9455, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 21, TIME: 61.1807, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 20, TIME: 62.265, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 24, TIME: 62.4673, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+FEC:
+    {ID: 25, TIME: 65.8851, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 22, TIME: 67.3, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 23, TIME: 71.9119, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 72.8237, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 64.4665
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 19, TIME: 55.9455, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 21, TIME: 61.1807, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 20, TIME: 62.265, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 24, TIME: 62.4673, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: LEAVE, NEXT_BLOCK: TERMINATE}
+FEC:
+    {ID: 25, TIME: 65.8851, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 22, TIME: 67.3, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 23, TIME: 71.9119, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 72.8237, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 64.4665
+STATUS:
+    Workers type=1 have 1 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 19, TIME: 55.9455, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 21, TIME: 61.1807, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 20, TIME: 62.265, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 24, TIME: 62.4673, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: TERMINATE, NEXT_BLOCK: END}
+FEC:
+    {ID: 25, TIME: 65.8851, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 22, TIME: 67.3, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 23, TIME: 71.9119, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 72.8237, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 64.4665
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 19, TIME: 55.9455, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 21, TIME: 61.1807, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 20, TIME: 62.265, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 24, TIME: 62.4673, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: TERMINATE, NEXT_BLOCK: END}
+FEC:
+    {ID: 25, TIME: 65.8851, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 22, TIME: 67.3, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 23, TIME: 71.9119, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 72.8237, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 64.4665
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: LEAVE, NEXT_BLOCK: TERMINATE}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 19, TIME: 55.9455, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 21, TIME: 61.1807, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 20, TIME: 62.265, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 24, TIME: 62.4673, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: TERMINATE, NEXT_BLOCK: END}
+FEC:
+    {ID: 25, TIME: 65.8851, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 22, TIME: 67.3, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 23, TIME: 71.9119, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 72.8237, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 64.4665
+STATUS:
+    Workers type=1 have 1 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 13, TIME: 29.079, TYPE: 1, CUR_BLOCK: TERMINATE, NEXT_BLOCK: END}
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 19, TIME: 55.9455, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 21, TIME: 61.1807, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 20, TIME: 62.265, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 24, TIME: 62.4673, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: TERMINATE, NEXT_BLOCK: END}
+FEC:
+    {ID: 25, TIME: 65.8851, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 22, TIME: 67.3, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 23, TIME: 71.9119, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 72.8237, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 64.4665
+STATUS:
+    Workers type=1 have 1 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 19, TIME: 55.9455, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 21, TIME: 61.1807, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 20, TIME: 62.265, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 24, TIME: 62.4673, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: TERMINATE, NEXT_BLOCK: END}
+FEC:
+    {ID: 25, TIME: 65.8851, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 22, TIME: 67.3, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 23, TIME: 71.9119, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 72.8237, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 64.4665
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 16, TIME: 37.1832, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 19, TIME: 55.9455, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 21, TIME: 61.1807, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 20, TIME: 62.265, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 24, TIME: 62.4673, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: TERMINATE, NEXT_BLOCK: END}
+FEC:
+    {ID: 25, TIME: 65.8851, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 22, TIME: 67.3, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 23, TIME: 71.9119, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 72.8237, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 64.4665
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 19, TIME: 55.9455, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 21, TIME: 61.1807, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 20, TIME: 62.265, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 24, TIME: 62.4673, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 11, TIME: 64.4665, TYPE: 1, CUR_BLOCK: TERMINATE, NEXT_BLOCK: END}
+FEC:
+    {ID: 25, TIME: 65.8851, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 22, TIME: 67.3, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 23, TIME: 71.9119, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 72.8237, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 16, TIME: 73.74, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+PHASE: viewing phase
+MODEL TIME: 64.4665
+STATUS:
+    Workers type=1 have 0 places
+    Workers type=2 have 0 places
+CEC:
+    {ID: 15, TIME: 44.6625, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 17, TIME: 46.5053, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 18, TIME: 52.2073, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 14, TIME: 53.8246, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 19, TIME: 55.9455, TYPE: 3, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 21, TIME: 61.1807, TYPE: 1, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 20, TIME: 62.265, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+    {ID: 24, TIME: 62.4673, TYPE: 2, CUR_BLOCK: ENTER, NEXT_BLOCK: ADVANCE}
+FEC:
+    {ID: 25, TIME: 65.8851, TYPE: 2, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 22, TIME: 67.3, TYPE: 3, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 23, TIME: 71.9119, TYPE: 1, CUR_BLOCK: START, NEXT_BLOCK: GENERATE}
+    {ID: 9, TIME: 72.8237, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 16, TIME: 73.74, TYPE: 3, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 7, TIME: 75.7865, TYPE: 2, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+    {ID: 10, TIME: 87.7143, TYPE: 1, CUR_BLOCK: ADVANCE, NEXT_BLOCK: LEAVE}
+
+################################################################################
+
+AVERAGE QUEUE LENGTH:
+    Queue 1: 1.21021 (MAX_LEN=5)
+    Queue 2: 1.18424 (MAX_LEN=4)
