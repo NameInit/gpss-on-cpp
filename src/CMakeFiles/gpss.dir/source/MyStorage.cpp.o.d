@@ -121,8 +121,8 @@ CMakeFiles/gpss.dir/source/MyStorage.cpp.o: \
  /usr/include/c++/13/bits/memory_resource.h /usr/include/c++/13/cstddef \
  /usr/include/c++/13/bits/uses_allocator.h \
  /usr/include/c++/13/bits/uses_allocator_args.h /usr/include/c++/13/tuple \
- /home/ilya/Рабочий\ стол/gpss-on-cpp/src/source/../headers/Tranzakt.h \
- /usr/include/c++/13/iostream /usr/include/c++/13/ostream \
+ /home/ilya/Рабочий\ стол/gpss-on-cpp/src/source/../headers/List.h \
+ /usr/include/c++/13/fstream /usr/include/c++/13/istream \
  /usr/include/c++/13/ios /usr/include/c++/13/bits/ios_base.h \
  /usr/include/c++/13/ext/atomicity.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
@@ -152,14 +152,13 @@ CMakeFiles/gpss.dir/source/MyStorage.cpp.o: \
  /usr/include/c++/13/bits/streambuf_iterator.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h \
  /usr/include/c++/13/bits/locale_facets.tcc \
- /usr/include/c++/13/bits/basic_ios.tcc \
- /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
- /usr/include/c++/13/bits/istream.tcc \
- /home/ilya/Рабочий\ стол/gpss-on-cpp/src/source/../headers/OrderEvent.h \
- /usr/include/c++/13/fstream /usr/include/c++/13/bits/codecvt.h \
+ /usr/include/c++/13/bits/basic_ios.tcc /usr/include/c++/13/ostream \
+ /usr/include/c++/13/bits/ostream.tcc \
+ /usr/include/c++/13/bits/istream.tcc /usr/include/c++/13/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
- /usr/include/c++/13/bits/fstream.tcc /usr/include/c++/13/cstring \
- /usr/include/string.h /usr/include/strings.h \
- /home/ilya/Рабочий\ стол/gpss-on-cpp/src/source/../headers/List.h \
- /home/ilya/Рабочий\ стол/gpss-on-cpp/src/source/../headers/IList.h
+ /usr/include/c++/13/bits/fstream.tcc /usr/include/c++/13/iostream \
+ /home/ilya/Рабочий\ стол/gpss-on-cpp/src/source/../headers/IList.h \
+ /home/ilya/Рабочий\ стол/gpss-on-cpp/src/source/../headers/Tranzakt.h \
+ /home/ilya/Рабочий\ стол/gpss-on-cpp/src/source/../headers/OrderEvent.h \
+ /usr/include/c++/13/cstring /usr/include/string.h /usr/include/strings.h

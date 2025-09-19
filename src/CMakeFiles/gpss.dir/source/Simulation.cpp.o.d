@@ -2,7 +2,7 @@ CMakeFiles/gpss.dir/source/Simulation.cpp.o: \
  /home/ilya/Рабочий\ стол/gpss-on-cpp/src/source/Simulation.cpp \
  /usr/include/stdc-predef.h \
  /home/ilya/Рабочий\ стол/gpss-on-cpp/src/source/../headers/Simulation.h \
- /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
+ /usr/include/c++/13/fstream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -13,7 +13,7 @@ CMakeFiles/gpss.dir/source/Simulation.cpp.o: \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
- /usr/include/c++/13/pstl/pstl_config.h /usr/include/c++/13/ostream \
+ /usr/include/c++/13/pstl/pstl_config.h /usr/include/c++/13/istream \
  /usr/include/c++/13/ios /usr/include/c++/13/iosfwd \
  /usr/include/c++/13/bits/stringfwd.h \
  /usr/include/c++/13/bits/memoryfwd.h /usr/include/c++/13/bits/postypes.h \
@@ -148,14 +148,15 @@ CMakeFiles/gpss.dir/source/Simulation.cpp.o: \
  /usr/include/c++/13/bits/streambuf_iterator.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h \
  /usr/include/c++/13/bits/locale_facets.tcc \
- /usr/include/c++/13/bits/basic_ios.tcc \
- /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
- /usr/include/c++/13/bits/istream.tcc /usr/include/c++/13/fstream \
- /usr/include/c++/13/bits/codecvt.h \
+ /usr/include/c++/13/bits/basic_ios.tcc /usr/include/c++/13/ostream \
+ /usr/include/c++/13/bits/ostream.tcc \
+ /usr/include/c++/13/bits/istream.tcc /usr/include/c++/13/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
- /usr/include/c++/13/bits/fstream.tcc \
- /home/ilya/Рабочий\ стол/gpss-on-cpp/src/source/../headers/Generator.h \
+ /usr/include/c++/13/bits/fstream.tcc /usr/include/c++/13/iostream \
+ /home/ilya/Рабочий\ стол/gpss-on-cpp/src/source/../headers/Advance.h \
+ /home/ilya/Рабочий\ стол/gpss-on-cpp/src/source/../headers/List.h \
+ /home/ilya/Рабочий\ стол/gpss-on-cpp/src/source/../headers/IList.h \
  /home/ilya/Рабочий\ стол/gpss-on-cpp/src/source/../headers/Tranzakt.h \
  /home/ilya/Рабочий\ стол/gpss-on-cpp/src/source/../headers/OrderEvent.h \
  /usr/include/c++/13/cstring /usr/include/string.h /usr/include/strings.h \
@@ -205,9 +206,7 @@ CMakeFiles/gpss.dir/source/Simulation.cpp.o: \
  /usr/include/c++/13/bits/locale_conv.h \
  /usr/include/c++/13/bits/quoted_string.h /usr/include/c++/13/sstream \
  /usr/include/c++/13/bits/sstream.tcc \
- /home/ilya/Рабочий\ стол/gpss-on-cpp/src/source/../headers/List.h \
- /home/ilya/Рабочий\ стол/gpss-on-cpp/src/source/../headers/IList.h \
  /home/ilya/Рабочий\ стол/gpss-on-cpp/src/source/../headers/FutureEventsChain.h \
  /home/ilya/Рабочий\ стол/gpss-on-cpp/src/source/../headers/MyStorage.h \
- /home/ilya/Рабочий\ стол/gpss-on-cpp/src/source/../headers/Advance.h \
+ /home/ilya/Рабочий\ стол/gpss-on-cpp/src/source/../headers/Generator.h \
  /home/ilya/Рабочий\ стол/gpss-on-cpp/src/source/../headers/Terminate.h

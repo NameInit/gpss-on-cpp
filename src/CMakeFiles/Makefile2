@@ -74,6 +74,7 @@ preinstall:
 clean: CMakeFiles/gpss.dir/clean
 clean: CMakeFiles/run.dir/clean
 clean: CMakeFiles/clean_all.dir/clean
+clean: CMakeFiles/clang.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -83,7 +84,7 @@ clean: CMakeFiles/clean_all.dir/clean
 CMakeFiles/gpss.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpss.dir/build.make CMakeFiles/gpss.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpss.dir/build.make CMakeFiles/gpss.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/ilya/Рабочий стол/gpss-on-cpp/src/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target gpss"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/ilya/Рабочий стол/gpss-on-cpp/src/CMakeFiles" --progress-num=2,3,4,5,6,7,8,9,10,11,12,13 "Built target gpss"
 .PHONY : CMakeFiles/gpss.dir/all
 
 # Build rule for subdir invocation for target.
@@ -153,6 +154,32 @@ clean_all: CMakeFiles/clean_all.dir/rule
 CMakeFiles/clean_all.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clean_all.dir/build.make CMakeFiles/clean_all.dir/clean
 .PHONY : CMakeFiles/clean_all.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/clang.dir
+
+# All Build rule for target.
+CMakeFiles/clang.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clang.dir/build.make CMakeFiles/clang.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clang.dir/build.make CMakeFiles/clang.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/ilya/Рабочий стол/gpss-on-cpp/src/CMakeFiles" --progress-num=1 "Built target clang"
+.PHONY : CMakeFiles/clang.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/clang.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ilya/Рабочий стол/gpss-on-cpp/src/CMakeFiles" 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/clang.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ilya/Рабочий стол/gpss-on-cpp/src/CMakeFiles" 0
+.PHONY : CMakeFiles/clang.dir/rule
+
+# Convenience name for target.
+clang: CMakeFiles/clang.dir/rule
+.PHONY : clang
+
+# clean rule for target.
+CMakeFiles/clang.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clang.dir/build.make CMakeFiles/clang.dir/clean
+.PHONY : CMakeFiles/clang.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

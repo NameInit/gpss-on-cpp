@@ -155,6 +155,19 @@ clean_all/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clean_all.dir/build.make CMakeFiles/clean_all.dir/build
 .PHONY : clean_all/fast
 
+#=============================================================================
+# Target rules for targets named clang
+
+# Build rule for target.
+clang: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clang
+.PHONY : clang
+
+# fast build rule for target.
+clang/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clang.dir/build.make CMakeFiles/clang.dir/build
+.PHONY : clang/fast
+
 data_io/creator_conditional.o: data_io/creator_conditional.cpp.o
 .PHONY : data_io/creator_conditional.o
 
@@ -427,6 +440,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... clang"
 	@echo "... clean_all"
 	@echo "... run"
 	@echo "... gpss"
